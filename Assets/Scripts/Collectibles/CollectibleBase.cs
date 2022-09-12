@@ -4,7 +4,8 @@ using UnityEngine;
 
 public abstract class CollectibleBase : MonoBehaviour
 {
-    protected abstract void Collect(Player player);
+    protected abstract void CollectHP(PlayerHealth player);
+    protected abstract void CollectScore(Player player);
 
     [SerializeField] float _movementSpeed = 1;
     protected float MovementSpeed => _movementSpeed;
@@ -33,15 +34,24 @@ public abstract class CollectibleBase : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Player player = other.gameObject.GetComponent<Player>();
+        PlayerHealth player = other.gameObject.GetComponent<PlayerHealth>();
+        Player playerSc = other.gameObject.GetComponent<Player>();
         if (player != null)
         {
-            Collect(player);
+            CollectHP(player);
             //particles sfx
             Feedback();
 
             gameObject.SetActive(false);
-        }    
+        }
+        if (playerSc != null)
+        {
+            CollectScore(playerSc);
+            //particles sfx
+            Feedback();
+
+            gameObject.SetActive(false);
+        }
     }
     private void Feedback()
     {

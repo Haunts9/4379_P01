@@ -7,7 +7,6 @@ public class InvincibilityPowerUp : PowerUpBase
     GameObject[] SavedColors;
     protected override void PowerUp(Player player)
     {
-        player.invincibility = true;
         foreach (GameObject f in player.art)
         {
             f.GetComponent<Renderer>().material.color = Color.cyan;
@@ -15,7 +14,6 @@ public class InvincibilityPowerUp : PowerUpBase
     }
     protected override void PowerDown(Player player)
     {
-        player.invincibility = false;
         player.RevertChangesToColor();
     }
 }

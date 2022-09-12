@@ -6,8 +6,11 @@ public class HealthIncrease : CollectibleBase
 {
     [SerializeField] int _healthAdded = 1;
 
-    protected override void Collect(Player player)
+    protected override void CollectHP(PlayerHealth player)
     {
         player.IncreaseHealth(_healthAdded);
+    }
+    protected override void CollectScore(Player player)
+    {
     }
 }
