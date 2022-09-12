@@ -19,7 +19,7 @@ public class PlayerTurret : MonoBehaviour
     {
         while (cooldown == false && Input.GetKey("space") && bullet != null && barrel != null)
         {
-            Debug.Log("Pew");
+            //Debug.Log("Pew");
             Instantiate(bullet, (barrel.transform.position), barrel.transform.rotation);
             cooldown = true;
             StartCoroutine(CooldownRotation());

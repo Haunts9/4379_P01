@@ -10,6 +10,7 @@ public abstract class ProjectileBase : MonoBehaviour
     [SerializeField] float DecayTime = 3f;
     [SerializeField] ParticleSystem collisionParticles;
     [SerializeField] AudioClip collisionSound;
+    public float ProjectileDamage = 10f;
     // Start is called before the first frame update
     private void Awake()
     {

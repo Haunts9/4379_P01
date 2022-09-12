@@ -17,14 +17,14 @@ public class BaseHealthSystem : MonoBehaviour
         _currentHealth = _maxHealth;
         UpdateHealthBar();
     }
-    public void IncreaseHealth(int amount)
+    public void IncreaseHealth(float amount)
     {
         _currentHealth += amount;
         _currentHealth = Mathf.Clamp(_currentHealth, 0, _maxHealth);
         UpdateHealthBar();
         Debug.Log(gameObject.name + " Health: " + _currentHealth + " / " + _maxHealth);
     }
-    public void DecreaseHealth(int amount)
+    public void DecreaseHealth(float amount)
     {
         if (IframeUp != true)
         {
