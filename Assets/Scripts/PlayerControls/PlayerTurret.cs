@@ -7,6 +7,7 @@ public class PlayerTurret : MonoBehaviour
     [SerializeField] ParticleSystem fireParticles;
     [SerializeField] AudioClip fireSound;
     [SerializeField] float cooldownTimer = .2f;
+    [SerializeField] GameObject barrel;
     [SerializeField] GameObject bullet;
     bool cooldown = false;
 
@@ -16,10 +17,10 @@ public class PlayerTurret : MonoBehaviour
     }
     private void Shoot()
     {
-        while (cooldown == false && Input.GetKey("space") && bullet != null)
+        while (cooldown == false && Input.GetKey("space") && bullet != null && barrel != null)
         {
             Debug.Log("Pew");
-            Instantiate(bullet, (gameObject.transform.position), gameObject.transform.rotation);
+            Instantiate(bullet, (barrel.transform.position), barrel.transform.rotation);
             cooldown = true;
             StartCoroutine(CooldownRotation());
         }
