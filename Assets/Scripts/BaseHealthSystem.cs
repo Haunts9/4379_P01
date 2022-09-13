@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class BaseHealthSystem : MonoBehaviour
 {
-    [SerializeField] float _maxHealth = 3;
-    [SerializeField] float IFrameTime = .5f;
-    bool IframeUp = false;
-    float _currentHealth;
+    [SerializeField] protected float _maxHealth = 3;
+    [SerializeField] public float IFrameTime = .5f;
+    protected bool IframeUp = false;
+    protected float _currentHealth;
     [SerializeField] ParticleSystem _deathParticles;
     [SerializeField] AudioClip _deathSound;
     [SerializeField] GameObject HealthBar;
@@ -24,7 +24,7 @@ public class BaseHealthSystem : MonoBehaviour
         UpdateHealthBar();
         Debug.Log(gameObject.name + " Health: " + _currentHealth + " / " + _maxHealth);
     }
-    public void DecreaseHealth(float amount)
+    public virtual void DecreaseHealth(float amount)
     {
         if (IframeUp != true)
         {
@@ -69,7 +69,7 @@ public class BaseHealthSystem : MonoBehaviour
         }
     }
 
-    IEnumerator IFrame()
+    protected IEnumerator IFrame()
     {
         yield return new WaitForSeconds(IFrameTime);
         IframeUp = false;

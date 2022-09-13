@@ -23,6 +23,7 @@ public class PlayerTurret : MonoBehaviour
             Instantiate(bullet, (barrel.transform.position), barrel.transform.rotation);
             cooldown = true;
             StartCoroutine(CooldownRotation());
+            Feedback();
         }
     }
 
@@ -36,7 +37,7 @@ public class PlayerTurret : MonoBehaviour
         //audio
         if (fireSound != null)
         {
-            AudioHelper.PlayClip2D(fireSound, 1f);
+            AudioHelper.PlayClip2D(fireSound, .1f);
         }
     }
     IEnumerator CooldownRotation()

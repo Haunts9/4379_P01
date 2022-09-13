@@ -27,10 +27,10 @@ public abstract class ProjectileBase : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag != "Ground")
+        if (other.tag != "PlayerProjectile" && other.tag != "EnemyProjectile")
         {
 
-            Debug.Log("hit " + other.name);
+           // Debug.Log("hit " + other.name);
             Connect(other);
 
         }
@@ -45,7 +45,7 @@ public abstract class ProjectileBase : MonoBehaviour
         //audio
         if (collisionSound != null)
         {
-            AudioHelper.PlayClip2D(collisionSound, 1f);
+            AudioHelper.PlayClip2D(collisionSound, .1f);
         }
     }
     IEnumerator Duration()

@@ -114,9 +114,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletSpeed: 10
   DecayTime: 3
-  collisionParticles: {fileID: 0}
-  collisionSound: {fileID: 0}
-  ProjectileDamage: 10
+  collisionParticles: {fileID: 7817246862129186009, guid: 69bca4165baa9e04a99317ada34155f9, type: 3}
+  collisionSound: {fileID: 8300000, guid: 56c2ee139e8c844ba9a3a17370e3b763, type: 3}
+  ProjectileDamage: 20
 --- !u!54 &2163182576267477957
 Rigidbody:
   m_ObjectHideFlags: 0
