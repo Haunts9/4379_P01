@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3116530809999084758}
   - component: {fileID: 8381757830021693859}
   m_Layer: 0
-  m_Name: Tank
+  m_Name: GasTank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,9 +385,10 @@ GameObject:
   - component: {fileID: 3598554686699461968}
   - component: {fileID: 3598554686699461969}
   - component: {fileID: 3598554686699461970}
+  - component: {fileID: 2052963786}
   m_Layer: 0
   m_Name: Tank
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,16 +465,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7deae910b21a2142adfc1132501442e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 3
-  invincibility: 0
   _scoreText: {fileID: 0}
   art:
   - {fileID: 3598554686831887059}
   - {fileID: 3598554684916245731}
   - {fileID: 3598554686938264142}
   - {fileID: 3598554686610110175}
-  _deathParticles: {fileID: 6121741045285554528, guid: 909b7bfc1c36d7a49a180e2d14e22be1, type: 3}
-  _deathSound: {fileID: 8300000, guid: 7743889c22ea9472a895ecd63b2bb221, type: 3}
 --- !u!114 &3598554686699461970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,10 +484,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireParticles: {fileID: 0}
-  fireSound: {fileID: 0}
-  cooldownTimer: 0.2
+  fireSound: {fileID: 8300000, guid: f1364d48e48ea4fdab44868cc9b2a10e, type: 3}
+  cooldownTimer: 0.3
   barrel: {fileID: 3598554686610110175}
   bullet: {fileID: 2163182576267477567, guid: 2910e72ed8aeb4d45bd16531762a0249, type: 3}
+--- !u!114 &2052963786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598554686699461972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2ec34d11cab9f41aade37086508e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 100
+  IFrameTime: 0.5
+  _deathParticles: {fileID: 6121741045285554528, guid: 909b7bfc1c36d7a49a180e2d14e22be1, type: 3}
+  _deathSound: {fileID: 8300000, guid: 7743889c22ea9472a895ecd63b2bb221, type: 3}
+  HealthBar: {fileID: 0}
+  art:
+  - {fileID: 3598554686831887059}
+  - {fileID: 5321697929924914590}
+  - {fileID: 3598554686938264142}
+  - {fileID: 7103907945581519133}
+  - {fileID: 8100866610261063518}
+  - {fileID: 3598554684916245731}
+  - {fileID: 2040699273445735039}
+  - {fileID: 8037017843481803641}
+  - {fileID: 8399224469270233400}
+  - {fileID: 3598554686610110175}
+  - {fileID: 4027669375658384412}
+  - {fileID: 421767932616172945}
 --- !u!1 &3598554686831887059
 GameObject:
   m_ObjectHideFlags: 0

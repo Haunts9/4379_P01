@@ -20,7 +20,7 @@ public abstract class ProjectileBase : MonoBehaviour
     {
         ProjectileFly();
     }
-    private void ProjectileFly()
+    protected void ProjectileFly()
     {
         transform.Translate(Vector3.forward * BulletSpeed * Time.deltaTime);
     }
@@ -48,7 +48,7 @@ public abstract class ProjectileBase : MonoBehaviour
             AudioHelper.PlayClip2D(collisionSound, .1f);
         }
     }
-    IEnumerator Duration()
+    protected  IEnumerator Duration()
     {
         yield return new WaitForSeconds(DecayTime);
         Destroy(gameObject);
