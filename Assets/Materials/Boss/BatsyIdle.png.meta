@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 61378956f03a7cb459ecf90283f7ec77
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatsyIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6408
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f47fa33b2afc26429bb273329f61a97
+      internalID: 1914029638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_1
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 6408
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b314c8cc670444288336f961c206f7
+      internalID: -1016299546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_2
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 6408
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb918adf7fda544c9c3b37e3bb73256
+      internalID: -1642166093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5607
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e6eda1816aa5f4db4b7659377ac6d5
+      internalID: -2003667114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_4
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 5607
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc5fdbe118ca9c4ab44ff14c2612e0c
+      internalID: 43915462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 5607
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c2aa73ed4e629469777d1be6f2f72d
+      internalID: 1318475249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4806
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45122023ba5917f47a337269c5780042
+      internalID: 885421672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_7
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 4806
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e925c590aac0e479a2079f7a2723fa
+      internalID: -243591529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_8
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 4806
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39baa5d7b8cd7b74fa89b0e3285ce15c
+      internalID: 213775237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4005
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceac045622da7d4fb2908995e8f857a
+      internalID: 1263961420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_10
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 4005
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25daaf3aa1a8f44296f8f210a36066f
+      internalID: -1953474981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_11
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 4005
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2baf4981fb4d243a31de854474dcd1
+      internalID: 1192641982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3204
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd09c9bf1a29c1b4dafc409f1654a464
+      internalID: -1097792274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_13
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 3204
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0d8b7c6bf1f65499db0b1a46d65cd6
+      internalID: -1743357942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_14
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3204
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7085ab9afba1d3468e933bb075b572c
+      internalID: 1617542439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2403
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2114240d7f03498419b5791a531c29d1
+      internalID: -2015275651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_16
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2403
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a285e7a6f9fbe47aac8c663b692622
+      internalID: -1085901136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2403
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f4dcd918f45d44893157eeb507df66
+      internalID: -1358542872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1602
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b3297b4f3f4414db441d1043050f81
+      internalID: 541748017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_19
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1602
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c80bcd51e9a8a049865bbd4f0e67f76
+      internalID: -257863933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_20
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1602
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb4e3c1f41c73d4c9a816720aa3a41c
+      internalID: -906443972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 801
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e6df3ba95fab042bd85fed20ee2563
+      internalID: 717276800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_22
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 801
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f1e4d42d00e5941bea88c4ca452122
+      internalID: -1236332797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_23
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 801
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15e5a8f427b3074e851c0cb52f4d4e8
+      internalID: 1973906837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0e47b63912cc149b6161e38a8d1b60
+      internalID: 2010082047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_25
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87916aff34beb8f4592b7c25772fb4ff
+      internalID: 694644597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatsyIdle_26
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 0
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbda06993468a142adf8edf9bbc398d
+      internalID: -1630230254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d83d96592445e944ea0220a3f4ba7c8d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BatsyIdle_20: -906443972
+      BatsyIdle_22: -1236332797
+      BatsyIdle_1: -1016299546
+      BatsyIdle_3: -2003667114
+      BatsyIdle_10: -1953474981
+      BatsyIdle_8: 213775237
+      BatsyIdle_0: 1914029638
+      BatsyIdle_6: 885421672
+      BatsyIdle_18: 541748017
+      BatsyIdle_25: 694644597
+      BatsyIdle_9: 1263961420
+      BatsyIdle_24: 2010082047
+      BatsyIdle_5: 1318475249
+      BatsyIdle_16: -1085901136
+      BatsyIdle_2: -1642166093
+      BatsyIdle_21: 717276800
+      BatsyIdle_19: -257863933
+      BatsyIdle_12: -1097792274
+      BatsyIdle_17: -1358542872
+      BatsyIdle_11: 1192641982
+      BatsyIdle_7: -243591529
+      BatsyIdle_23: 1973906837
+      BatsyIdle_14: 1617542439
+      BatsyIdle_13: -1743357942
+      BatsyIdle_26: -1630230254
+      BatsyIdle_4: 43915462
+      BatsyIdle_15: -2015275651
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
