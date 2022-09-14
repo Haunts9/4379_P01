@@ -362,4 +362,4 @@ MonoBehaviour:
   _movementSpeed: 1
   _collectParticles: {fileID: 1502141338476617077, guid: a8a7fa7aadc99054ba4a4feea16062c1, type: 3}
   _collectSound: {fileID: 8300000, guid: a2ae90e42daaf4723a539c25867d37fd, type: 3}
-  _healthAdded: 1
+  _healthAdded: 30

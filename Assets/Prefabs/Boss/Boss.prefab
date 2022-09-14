@@ -5475,8 +5475,8 @@ Transform:
   m_GameObject: {fileID: 4988889950702151949}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 4.5000005, z: -4.212}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 4988889949680798281}
   m_RootOrder: 0
@@ -7691,10 +7691,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ef1fad7bf209c4dbe8c2f819b30d7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 1000
+  _maxHealth: 500
   IFrameTime: 0.5
-  _deathParticles: {fileID: 0}
-  _deathSound: {fileID: 0}
+  _currentHealth: 0
+  _deathParticles: {fileID: 6241485356213101222, guid: d2ddd7878a1cd41459938acc51468d04, type: 3}
+  _deathSound: {fileID: 8300000, guid: 9e615a6ec1e774c0a8bfb003bbfe14ee, type: 3}
   HealthBar: {fileID: 0}
 --- !u!114 &4988889951337705916
 MonoBehaviour:

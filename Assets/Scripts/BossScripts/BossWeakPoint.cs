@@ -28,7 +28,11 @@ public class BossWeakPoint : MonoBehaviour
         {
             Debug.Log("I'm Hit!");
 
-            DaddyHealth.DecreaseHealth(other.GetComponent<PlayerProjectile>().ProjectileDamage);
+            if (DaddyHealth._currentHealth > 0)
+            {
+                DaddyHealth.DecreaseHealth(other.GetComponent<PlayerProjectile>().ProjectileDamage);
+            }
+
 
             if(art!=null)
             {

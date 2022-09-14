@@ -7,7 +7,7 @@ public class BaseHealthSystem : MonoBehaviour
     [SerializeField] protected float _maxHealth = 3;
     [SerializeField] public float IFrameTime = .5f;
     protected bool IframeUp = false;
-    protected float _currentHealth;
+    public float _currentHealth;
     [SerializeField] ParticleSystem _deathParticles;
     [SerializeField] AudioClip _deathSound;
     [SerializeField] GameObject HealthBar;
@@ -39,13 +39,13 @@ public class BaseHealthSystem : MonoBehaviour
             }
         }
     }
-    public void Kill()
+    public virtual void Kill()
     {
 
             gameObject.SetActive(false);
             DeathFeedback();
     }
-    private void DeathFeedback()
+    protected void DeathFeedback()
     {
         //particles
         if (_deathParticles != null)
@@ -55,7 +55,7 @@ public class BaseHealthSystem : MonoBehaviour
         //audio
         if (_deathSound != null)
         {
-            AudioHelper.PlayClip2D(_deathSound, 1f);
+            AudioHelper.PlayClip2D(_deathSound, .5f);
         }
     }
 

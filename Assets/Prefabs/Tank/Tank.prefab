@@ -502,8 +502,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHealth: 100
   IFrameTime: 0.5
+  _currentHealth: 0
   _deathParticles: {fileID: 6121741045285554528, guid: 909b7bfc1c36d7a49a180e2d14e22be1, type: 3}
-  _deathSound: {fileID: 8300000, guid: 7743889c22ea9472a895ecd63b2bb221, type: 3}
+  _deathSound: {fileID: 8300000, guid: fcc69d596e136463999c775beed3baa8, type: 3}
   HealthBar: {fileID: 0}
   art:
   - {fileID: 3598554686831887059}
