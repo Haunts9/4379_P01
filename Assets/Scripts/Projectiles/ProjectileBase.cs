@@ -20,7 +20,7 @@ public abstract class ProjectileBase : MonoBehaviour
     {
         ProjectileFly();
     }
-    protected void ProjectileFly()
+    protected virtual void ProjectileFly()
     {
         transform.Translate(Vector3.forward * BulletSpeed * Time.deltaTime);
     }

@@ -55,7 +55,7 @@ public class BaseHealthSystem : MonoBehaviour
         //audio
         if (_deathSound != null)
         {
-            AudioHelper.PlayClip2D(_deathSound, .5f);
+            AudioHelper.PlayClip2D(_deathSound, .25f);
         }
     }
 
