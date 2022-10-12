@@ -7,6 +7,7 @@ public class PlayerHealth : BaseHealthSystem
     [SerializeField] public GameObject[] art;
     private Color[] savedArt;
     bool Immunity = false;
+    [SerializeField] public GameObject Vignette;
     private void Awake()
     {
         savedArt = new Color[art.Length];
@@ -31,6 +32,16 @@ public class PlayerHealth : BaseHealthSystem
 
                 Immunity = true;
                 StartCoroutine(StartBlink());
+            }
+            if (Camera != null && HurtShake == true)
+            {
+                CameraScreenShake temp = Camera.GetComponent<CameraScreenShake>();
+                temp.ScreenShake(Intensity,Duration);
+            }
+            if (Vignette != null)
+            {
+                VignetteScript temp2 = Vignette.GetComponent<VignetteScript>();
+                temp2.Vignette();
             }
             if (_currentHealth <= 0)
             {

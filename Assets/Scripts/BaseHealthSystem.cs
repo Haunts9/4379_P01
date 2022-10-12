@@ -11,6 +11,11 @@ public class BaseHealthSystem : MonoBehaviour
     [SerializeField] ParticleSystem _deathParticles;
     [SerializeField] AudioClip _deathSound;
     [SerializeField] GameObject HealthBar;
+    [SerializeField] protected bool HurtShake = false;
+    [SerializeField] protected bool DeathShake = false;
+    [SerializeField] protected GameObject Camera;
+    [SerializeField] protected float Duration = .1f;
+    [SerializeField] protected float Intensity = .5f;
     float healthScale;
     void Start()
     {
@@ -33,6 +38,11 @@ public class BaseHealthSystem : MonoBehaviour
             _currentHealth -= amount;
             Debug.Log( gameObject.name + " Health: " + _currentHealth + " / " + _maxHealth);
             UpdateHealthBar();
+            if (Camera != null && HurtShake == true)
+            {
+                CameraScreenShake temp = Camera.GetComponent<CameraScreenShake>();
+               temp.ScreenShake(Intensity, Duration);
+            }
             if (_currentHealth <= 0)
             {
                 Kill();
@@ -47,6 +57,11 @@ public class BaseHealthSystem : MonoBehaviour
     }
     protected void DeathFeedback()
     {
+        if (Camera != null && DeathShake == true)
+        {
+            CameraScreenShake temp = Camera.GetComponent<CameraScreenShake>();
+            temp.ScreenShake(Intensity, Duration);
+        }
         //particles
         if (_deathParticles != null)
         {

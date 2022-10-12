@@ -506,6 +506,11 @@ MonoBehaviour:
   _deathParticles: {fileID: 6121741045285554528, guid: 909b7bfc1c36d7a49a180e2d14e22be1, type: 3}
   _deathSound: {fileID: 8300000, guid: fcc69d596e136463999c775beed3baa8, type: 3}
   HealthBar: {fileID: 0}
+  HurtShake: 1
+  DeathShake: 0
+  Camera: {fileID: 0}
+  Duration: 0.5
+  Intensity: 0.1
   art:
   - {fileID: 3598554686831887059}
   - {fileID: 5321697929924914590}
@@ -519,6 +524,7 @@ MonoBehaviour:
   - {fileID: 3598554686610110175}
   - {fileID: 4027669375658384412}
   - {fileID: 421767932616172945}
+  Vignette: {fileID: 0}
 --- !u!1 &3598554686831887059
 GameObject:
   m_ObjectHideFlags: 0

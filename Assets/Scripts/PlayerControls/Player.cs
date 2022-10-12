@@ -25,7 +25,6 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        _scoreText.text = ("Score: " + _score);
     }
 
     public void ScoreUp(int value)
